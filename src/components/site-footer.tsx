@@ -7,8 +7,8 @@ export function SiteFooter() {
     <footer className="border-t">
       <div className="container grid gap-10 py-14 md:grid-cols-3">
         <div>
-          <p className="whitespace-nowrap text-xs font-semibold uppercase tracking-[0.2em]">
-            Архитектурная мастерская Мамешина
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+            Профиль работ
           </p>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
             Жилые и общественные здания, реновация, малые формы.
