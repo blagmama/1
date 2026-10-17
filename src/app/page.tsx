@@ -34,7 +34,7 @@ export default function IndexPage() {
     <>
       <section className="container py-20 md:py-28">
         <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-          Архитектурное бюро · Москва
+          Архитектурная мастерская Мамешина
         </p>
         <h1 className="mt-6 max-w-3xl text-4xl font-medium leading-[1.05] tracking-tight md:text-6xl">
           Архитектура меры и света

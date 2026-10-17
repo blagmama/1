@@ -15,9 +15,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
-  if (!project) return { title: "Проект не найден — ФОРМА" };
+  if (!project) return { title: "Проект не найден — Архитектурная мастерская Мамешина" };
   return {
-    title: `${project.title} — ФОРМА`,
+    title: `${project.title} — Архитектурная мастерская Мамешина`,
     description: project.description[0],
   };
 }

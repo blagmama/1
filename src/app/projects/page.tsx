@@ -4,9 +4,9 @@ import { ProjectCard } from "@/components/project-card";
 import { categoryLabels, projects } from "@/lib/projects";
 
 export const metadata: Metadata = {
-  title: "Каталог проектов — ФОРМА",
+  title: "Каталог проектов — Архитектурная мастерская Мамешина",
   description:
-    "Каталог бюро ФОРМА: построенные здания и конкурсные проекты — жильё, общественные здания, реновация, малые формы.",
+    "Каталог архитектурной мастерской Мамешина: построенные здания и конкурсные проекты — жильё, общественные здания, реновация, малые формы.",
 };
 
 type Filters = "all" | "building" | "project";
@@ -45,10 +45,12 @@ export default async function ProjectsPage({
 
   return (
     <div className="container py-14 md:py-20">
-      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Бюро Форма</p>
+      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
+        Архитектурная мастерская Мамешина
+      </p>
       <h1 className="mt-6 text-4xl font-medium tracking-tight md:text-6xl">Каталог</h1>
       <p className="mt-4 max-w-xl text-muted-foreground">
-        Постройки и проекты бюро с 2011 года. Каждый объект — одно решение, доведённое
+        Постройки и проекты мастерской с 2011 года. Каждый объект — одно решение, доведённое
         до конца.
       </p>
 

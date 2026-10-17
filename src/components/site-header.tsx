@@ -16,12 +16,13 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b bg-background">
       <div className="container flex h-14 items-center justify-between">
-        <Link
-          href="/"
-          className="text-sm font-semibold uppercase tracking-[0.35em]"
-          onClick={() => setOpen(false)}
-        >
-          Форма
+        <Link href="/" onClick={() => setOpen(false)} className="leading-none">
+          <span className="block text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+            Архитектурная мастерская
+          </span>
+          <span className="mt-1 block text-sm font-semibold uppercase tracking-[0.35em]">
+            Мамешина
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Основная навигация">

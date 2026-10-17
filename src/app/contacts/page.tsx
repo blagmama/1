@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Контакты — ФОРМА",
+  title: "Контакты — Архитектурная мастерская Мамешина",
   description:
-    "Контакты архитектурного бюро ФОРМА: адрес офиса в Москве, телефон, почта для новых проектов, прессы и вакансий.",
+    "Контакты архитектурной мастерской Мамешина: адрес офиса в Москве, телефон, почта для новых проектов, прессы и вакансий.",
 };
 
 const channels = [
@@ -27,7 +27,9 @@ const channels = [
 export default function ContactsPage() {
   return (
     <div className="container py-14 md:py-20">
-      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Бюро Форма</p>
+      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
+        Архитектурная мастерская Мамешина
+      </p>
       <h1 className="mt-6 text-4xl font-medium tracking-tight md:text-6xl">Контакты</h1>
       <p className="mt-4 max-w-xl text-muted-foreground">
         Офис в центре Москвы. Мы работаем по всей России и всегда открыты для
@@ -63,7 +65,7 @@ export default function ContactsPage() {
           <div className="py-5">
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Реквизиты</p>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              ООО «Бюро Форма» · ИНН 7700000000 · ОГРН 1117700000000
+              ООО «Архитектурная мастерская Мамешина» · ИНН 7700000000 · ОГРН 1117700000000
             </p>
           </div>
         </div>
