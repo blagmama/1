@@ -3,7 +3,7 @@ import { ProjectCard } from "@/components/project-card";
 import { featuredProjects } from "@/lib/projects";
 
 const stats = [
-  { label: "Основано", value: "2011" },
+  { label: "Основано", value: "1993" },
   { label: "Проектов", value: "46" },
   { label: "Построено", value: "19" },
   { label: "Городов", value: "12" },
