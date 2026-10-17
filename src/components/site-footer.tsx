@@ -29,19 +29,18 @@ export function SiteFooter() {
         </nav>
 
         <div className="flex flex-col gap-3">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Офис</p>
-          <p className="text-sm">Большой Козихинский пер., 7, стр. 2</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Контакты</p>
           <p className="text-sm">
-            <a href="tel:+74950000000" className="transition-colors hover:text-muted-foreground">
-              +7 (495) 000-00-00
+            <a href="tel:+79625011097" className="transition-colors hover:text-muted-foreground">
+              +7 (962) 501-10-97
             </a>
           </p>
           <p className="text-sm">
             <a
-              href="mailto:hello@forma.archi"
+              href="mailto:mameshin@mail.ru"
               className="transition-colors hover:text-muted-foreground"
             >
-              hello@forma.archi
+              mameshin@mail.ru
             </a>
           </p>
         </div>
