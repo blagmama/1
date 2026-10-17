@@ -11,7 +11,7 @@ export function SiteFooter() {
             Профиль работ
           </p>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-            Жилые и общественные здания, реновация, малые формы.
+            Жилые и общественные здания и интерьеры, монументальное и культовое зодчество.
           </p>
         </div>
 
