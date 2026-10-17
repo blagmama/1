@@ -30,7 +30,7 @@ export default function ContactsPage() {
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
             Часы работы
           </p>
-          <p className="mt-3 text-lg">Пн–Пт, 10:00–19:00</p>
+          <p className="mt-3 text-lg">Пн–Пт, 08:00–20:00</p>
           <p className="mt-1 text-sm text-muted-foreground">
             Визит по предварительной договорённости
           </p>
