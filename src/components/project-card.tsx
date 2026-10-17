@@ -23,7 +23,7 @@ export function ProjectCard({
             fill
             sizes="(min-width: 768px) 50vw, 100vw"
             priority={priority}
-            className="object-cover grayscale transition-opacity duration-300 group-hover:opacity-80"
+            className="object-cover transition-opacity duration-300 group-hover:opacity-80"
           />
         </div>
         <div className="mt-4 flex items-baseline justify-between gap-4 border-t pt-3">

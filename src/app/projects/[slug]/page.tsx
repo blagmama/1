@@ -59,7 +59,7 @@ export default async function ProjectPage({
           fill
           sizes="(min-width: 1024px) 1200px, 100vw"
           priority
-          className="object-cover grayscale"
+          className="object-cover"
         />
       </div>
 
