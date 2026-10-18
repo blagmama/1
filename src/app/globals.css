@@ -90,3 +90,12 @@
     @apply bg-foreground text-background;
   }
 }
+
+@keyframes gallery-fade {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;
+  }
+}

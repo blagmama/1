@@ -12,6 +12,7 @@ export type Project = {
   description: string[];
   facts: { label: string; value: string }[];
   image: string;
+  images: string[];
   featured?: boolean;
 };
 
@@ -42,6 +43,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Частный дом" },
     ],
     image: "/images/dom-na-skale.webp",
+    images: [
+      "/images/dom-na-skale.webp",
+      "/images/dom-na-skale-2.webp",
+      "/images/dom-na-skale-3.webp",
+    ],
     featured: true,
   },
   {
@@ -65,6 +71,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Общественное здание" },
     ],
     image: "/images/biblioteka-tishiny.webp",
+    images: [
+      "/images/biblioteka-tishiny.webp",
+      "/images/biblioteka-tishiny-2.webp",
+      "/images/biblioteka-tishiny-3.webp",
+    ],
     featured: true,
   },
   {
@@ -88,6 +99,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Жильё, первые этажи" },
     ],
     image: "/images/kvartal-setka.webp",
+    images: [
+      "/images/kvartal-setka.webp",
+      "/images/kvartal-setka-2.webp",
+      "/images/kvartal-setka-3.webp",
+    ],
   },
   {
     slug: "pavilion-sveta",
@@ -110,6 +126,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Арт-павильон" },
     ],
     image: "/images/pavilion-sveta.webp",
+    images: [
+      "/images/pavilion-sveta.webp",
+      "/images/pavilion-sveta-2.webp",
+      "/images/pavilion-sveta-3.webp",
+    ],
     featured: true,
   },
   {
@@ -133,6 +154,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Реновация, мастерские" },
     ],
     image: "/images/remiz-studiy.webp",
+    images: [
+      "/images/remiz-studiy.webp",
+      "/images/remiz-studiy-2.webp",
+      "/images/remiz-studiy-3.webp",
+    ],
   },
   {
     slug: "muzei-zemli",
@@ -155,6 +181,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Музей" },
     ],
     image: "/images/muzei-zemli.webp",
+    images: [
+      "/images/muzei-zemli.webp",
+      "/images/muzei-zemli-2.webp",
+      "/images/muzei-zemli-3.webp",
+    ],
     featured: true,
   },
   {
@@ -178,6 +209,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Школа на 900 мест" },
     ],
     image: "/images/shkola-na-reke.webp",
+    images: [
+      "/images/shkola-na-reke.webp",
+      "/images/shkola-na-reke-2.webp",
+      "/images/shkola-na-reke-3.webp",
+    ],
   },
   {
     slug: "dom-vertikal",
@@ -200,6 +236,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Жилой дом" },
     ],
     image: "/images/dom-vertikal.webp",
+    images: [
+      "/images/dom-vertikal.webp",
+      "/images/dom-vertikal-2.webp",
+      "/images/dom-vertikal-3.webp",
+    ],
   },
   {
     slug: "chasovnya-u-polya",
@@ -222,6 +263,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Часовня" },
     ],
     image: "/images/chasovnya-u-polya.webp",
+    images: [
+      "/images/chasovnya-u-polya.webp",
+      "/images/chasovnya-u-polya-2.webp",
+      "/images/chasovnya-u-polya-3.webp",
+    ],
   },
   {
     slug: "teatr-dvuh-svetov",
@@ -244,6 +290,11 @@ export const projects: Project[] = [
       { label: "Программа", value: "Театр, фойе" },
     ],
     image: "/images/teatr-dvuh-svetov.webp",
+    images: [
+      "/images/teatr-dvuh-svetov.webp",
+      "/images/teatr-dvuh-svetov-2.webp",
+      "/images/teatr-dvuh-svetov-3.webp",
+    ],
   },
 ];
 

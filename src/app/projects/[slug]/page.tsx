@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ProjectGallery } from "@/components/project-gallery";
 import { categoryLabels, getProject, nextProject, projects } from "@/lib/projects";
 
 export function generateStaticParams() {
@@ -52,15 +52,8 @@ export default async function ProjectPage({
         {project.year} · {project.location} · {project.status}
       </p>
 
-      <div className="relative mt-10 aspect-[3/2] overflow-hidden bg-secondary">
-        <Image
-          src={project.image}
-          alt={project.title}
-          fill
-          sizes="(min-width: 1024px) 1200px, 100vw"
-          priority
-          className="object-cover"
-        />
+      <div className="mt-10">
+        <ProjectGallery images={project.images} title={project.title} />
       </div>
 
       <div className="mt-14 grid gap-12 md:grid-cols-[1fr,320px] md:gap-16">
