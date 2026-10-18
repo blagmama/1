@@ -9,24 +9,6 @@ const stats = [
   { label: "Городов", value: "12" },
 ];
 
-const principles = [
-  {
-    number: "01",
-    title: "Функция",
-    text: "План начинается с маршрута человека, а не с фасада. Лишнее помещение — такой же изъян, как лишняя колонна.",
-  },
-  {
-    number: "02",
-    title: "Свет",
-    text: "Окно — главный инструмент проекта. Мы задаём ритм проёмов раньше, чем выбираем материал стен.",
-  },
-  {
-    number: "03",
-    title: "Материал",
-    text: "Бетон, дерево, кирпич и стекло. Материалы работают в натуре и стареют так, чтобы здание не теряло лицо.",
-  },
-];
-
 export default function IndexPage() {
   const featured = featuredProjects();
 
@@ -83,23 +65,6 @@ export default function IndexPage() {
           <div className="mt-10 grid gap-x-10 gap-y-14 md:grid-cols-2">
             {featured.map((project, index) => (
               <ProjectCard key={project.slug} project={project} index={index} priority={index < 2} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="border-t">
-        <div className="container py-16 md:py-20">
-          <h2 className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Принципы</h2>
-          <div className="mt-10 grid gap-10 md:grid-cols-3">
-            {principles.map((principle) => (
-              <div key={principle.number} className="border-t pt-6">
-                <p className="font-mono text-xs text-muted-foreground">{principle.number}</p>
-                <h3 className="mt-4 text-xl font-medium">{principle.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  {principle.text}
-                </p>
-              </div>
             ))}
           </div>
         </div>
