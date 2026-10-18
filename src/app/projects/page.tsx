@@ -45,10 +45,7 @@ export default async function ProjectsPage({
 
   return (
     <div className="container py-14 md:py-20">
-      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-        Архитектурная мастерская Мамешина
-      </p>
-      <h1 className="mt-6 text-4xl font-medium tracking-tight md:text-6xl">Каталог</h1>
+      <h1 className="text-4xl font-medium tracking-tight md:text-6xl">Каталог</h1>
       <p className="mt-4 max-w-xl text-muted-foreground">
         Постройки и проекты мастерской с 2011 года. Каждый объект — одно решение, доведённое
         до конца.

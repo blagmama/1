@@ -9,10 +9,7 @@ export const metadata: Metadata = {
 export default function ContactsPage() {
   return (
     <div className="container py-14 md:py-20">
-      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-        Архитектурная мастерская Мамешина
-      </p>
-      <h1 className="mt-6 text-4xl font-medium tracking-tight md:text-6xl">Контакты</h1>
+      <h1 className="text-4xl font-medium tracking-tight md:text-6xl">Контакты</h1>
       <p className="mt-4 max-w-xl text-muted-foreground">
         Работаем по всей России и всегда открыты для разговора о новом месте.
       </p>

@@ -33,11 +33,8 @@ export default function IndexPage() {
   return (
     <>
       <section className="container py-20 md:py-28">
-        <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-          Архитектурная мастерская Мамешина
-        </p>
-        <h1 className="mt-6 max-w-3xl text-4xl font-medium leading-[1.05] tracking-tight md:text-6xl">
-          Архитектура меры и света
+        <h1 className="max-w-3xl text-4xl font-medium leading-[1.05] tracking-tight md:text-6xl">
+          Архитектура света и тени
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
           Проектируем жилые и общественные здания, общественные и жилые интерьеры.
