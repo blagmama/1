@@ -40,7 +40,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2023" },
       { label: "Статус", value: "Построено" },
       { label: "Площадь", value: "240 м²" },
-      { label: "Программа", value: "Частный дом" },
+      { label: "Раздел", value: "Частный дом" },
     ],
     image: "/images/dom-na-skale.webp",
     images: [
@@ -68,7 +68,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2021" },
       { label: "Статус", value: "Построено" },
       { label: "Площадь", value: "1 800 м²" },
-      { label: "Программа", value: "Общественное здание" },
+      { label: "Раздел", value: "Общественное здание" },
     ],
     image: "/images/biblioteka-tishiny.webp",
     images: [
@@ -96,7 +96,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2022" },
       { label: "Статус", value: "Построено" },
       { label: "Площадь", value: "12 400 м²" },
-      { label: "Программа", value: "Жильё, первые этажи" },
+      { label: "Раздел", value: "Жильё, первые этажи" },
     ],
     image: "/images/kvartal-setka.webp",
     images: [
@@ -123,7 +123,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2020" },
       { label: "Статус", value: "Построено" },
       { label: "Площадь", value: "320 м²" },
-      { label: "Программа", value: "Арт-павильон" },
+      { label: "Раздел", value: "Арт-павильон" },
     ],
     image: "/images/pavilion-sveta.webp",
     images: [
@@ -151,7 +151,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2019" },
       { label: "Статус", value: "Построено" },
       { label: "Площадь", value: "2 600 м²" },
-      { label: "Программа", value: "Реновация, мастерские" },
+      { label: "Раздел", value: "Реновация, мастерские" },
     ],
     image: "/images/remiz-studiy.webp",
     images: [
@@ -178,7 +178,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2025" },
       { label: "Статус", value: "Победа в конкурсе" },
       { label: "Площадь", value: "6 800 м²" },
-      { label: "Программа", value: "Музей" },
+      { label: "Раздел", value: "Музей" },
     ],
     image: "/images/muzei-zemli.webp",
     images: [
@@ -206,7 +206,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2024" },
       { label: "Статус", value: "Проект" },
       { label: "Площадь", value: "4 500 м²" },
-      { label: "Программа", value: "Школа на 900 мест" },
+      { label: "Раздел", value: "Школа на 900 мест" },
     ],
     image: "/images/shkola-na-reke.webp",
     images: [
@@ -233,7 +233,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2024" },
       { label: "Статус", value: "Проект" },
       { label: "Площадь", value: "9 300 м²" },
-      { label: "Программа", value: "Жилой дом" },
+      { label: "Раздел", value: "Жилой дом" },
     ],
     image: "/images/dom-vertikal.webp",
     images: [
@@ -260,7 +260,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2023" },
       { label: "Статус", value: "В работе" },
       { label: "Площадь", value: "45 м²" },
-      { label: "Программа", value: "Часовня" },
+      { label: "Раздел", value: "Часовня" },
     ],
     image: "/images/chasovnya-u-polya.webp",
     images: [
@@ -287,7 +287,7 @@ export const projects: Project[] = [
       { label: "Год", value: "2025" },
       { label: "Статус", value: "Конкурс" },
       { label: "Площадь", value: "7 200 м²" },
-      { label: "Программа", value: "Театр, фойе" },
+      { label: "Раздел", value: "Театр, фойе" },
     ],
     image: "/images/teatr-dvuh-svetov.webp",
     images: [
